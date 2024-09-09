@@ -1,0 +1,36 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill:#fff;
+	stroke: #fff;
+}
+
+.icon--arrows-left, .icon--arrows-right {
+	width: 24px !important;
+	height: 20px !important;
+	@include tablet {
+		 width: 18px !important;
+		 height: 14px !important;
+	}
+}
+// .swiper__header-arrow .icon--arrows-right {
+// 	@include tablet {
+// 		 display: none;
+// 	}
+	
+// }
+
+.icon--search {
+	fill:#fff;
+}
+
+.icon--arrows-down {
+	width: 21px;
+	height: 24px;
+}
+
+

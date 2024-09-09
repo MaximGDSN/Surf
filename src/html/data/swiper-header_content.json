@@ -1,0 +1,22 @@
+[
+	{
+		"shore": "NORTH SHORE",
+		"img": "01",
+		"map": "north"
+	},
+	{
+		"shore": "SOUTH SHORE",
+		"img": "02",
+		"map": "south"
+	},
+	{
+		"shore": "WEST SHORE",
+		"img": "03",
+		"map": "west"
+	},
+	{
+		"shore": "EAST SHORE",
+		"img": "04",
+		"map": "east"
+	}
+]

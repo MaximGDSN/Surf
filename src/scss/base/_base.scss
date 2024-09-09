@@ -1,0 +1,27 @@
+// @import шрифт
+html {
+	scroll-behavior: smooth;
+	background-color: #fff;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-family);
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: var(--link-color);
+}
+
+.container {
+	max-width: var(--container-width);
+	padding: var(--container-padding);
+	margin: 0 auto;
+}
+

@@ -1,0 +1,86 @@
+.swiper-button-next::after, .swiper-button-prev::after  {
+	display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+	position: absolute;
+	width:24px !important;
+	height:20px !important;
+	top:80px !important;
+	right:40px !important;
+	@include notebook {
+		 top:50px !important;
+		 right: 17px !important;
+	}
+	@include mobile {
+		 top: 45px !important;
+		 right: 12px !important;
+	}
+}
+
+.swiper-button-prev {
+		right:80px !important;
+		left: unset !important;
+		@include notebook {
+			 right: 57px !important;
+		}
+		@include mobile {
+			 right: 42px !important;
+		}
+	}
+	
+	.swiper-button-next__main, .swiper-button-prev__main {
+		right: 80px !important;
+		bottom: 33px !important	;
+		opacity:0.25;
+	}
+	.swiper-button-prev__main {
+		right:125px !important;
+	}
+
+	.surf-btn {
+	font-weight: 800;
+	font-size: 34px;
+	letter-spacing: -3px;
+	line-height: 90%;
+	text-transform: uppercase;
+
+	height: 69px;
+	position: absolute;
+	text-align: center;
+	bottom:0;
+	left:0;
+	right:40px;
+
+	transform: translateY(105%);
+	opacity: 0;
+	pointer-events: all;
+
+	span {
+		display: inline-block;
+		position: relative;
+		padding:19px 57px 19px 17px;
+		margin-left:8px;
+		background-color: #4af6cd;
+		height: 69px;
+		&::after {
+			content: "";
+			background-image: url(../../img/surf/arrows-right.svg);
+			position: absolute;
+			right:17px;
+			top:26px;
+			width: 24px;
+			height:21px;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			left: -9px;
+			top: 50%;
+			width: 20px;
+			height: 1px;
+			background-color:#fff;
+		}
+	}
+
+}

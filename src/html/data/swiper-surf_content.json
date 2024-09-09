@@ -1,0 +1,50 @@
+[
+	{
+		"beach": "MALIBY BEACH",
+		"img": "malibu",
+		"location": "California <span>|</span> USA",
+		"link": "#"
+	},
+	{
+		"beach": "AIRLIE BEACH",
+		"img": "airlie",
+		"location": "Queensland <span>|</span> Australia",
+		"link": "#"
+	},
+	{
+		"beach": "CLOUD NINE",
+		"img": "cloud-mine",
+		"location": "Siargao <span>|</span> Philippines",
+		"link": "#"
+	},
+	{
+		"beach": "VIEUX BOUCAU",
+		"img": "vieux-boucau",
+		"location": "Hossegor <span>|</span> France",
+		"link": "#"
+	},
+	{
+		"beach": "MALIBY BEACH",
+		"img": "malibu",
+		"location": "California <span>|</span> USA",
+		"link": "#"
+	},
+	{
+		"beach": "AIRLIE BEACH",
+		"img": "airlie",
+		"location": "Queensland <span>|</span> Australia",
+		"link": "#"
+	},
+	{
+		"beach": "CLOUD NINE",
+		"img": "cloud-mine",
+		"location": "Siargao <span>|</span> Philippines",
+		"link": "#"
+	},
+	{
+		"beach": "VIEUX BOUCAU",
+		"img": "vieux-boucau",
+		"location": "Hossegor <span>|</span> France",
+		"link": "#"
+	}
+]
